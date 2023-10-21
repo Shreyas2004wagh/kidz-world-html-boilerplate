@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-section{
+    background-image: url("assets/kw-background.png");
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    padding: 100px 50px;
+    color: white;
+    font-size: x-large;
+}
+.cart-top{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+.cart1 img{
+    height: 30px;
+    width: 40px;
+
+ 
+
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.bg-para{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.book{
+    height: 230px;
+    width: 160px;
+}
+.heading{
+    margin-top: 90px;
+    margin-left: 50px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.books-section{
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-between;
+    
+}
+.book-box{
+    margin-right: 80px;
+}
+.book-heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.book-para{
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.book-cost{
+    font-size: 14px;
+}
+.button-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.book-button{
+    background-color: blue;
+    border-radius: 8px;
+    border-width: 0;
+    height: 30px;
+    width: 70px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 6px;
+    
+}
+.cart{
+    height: 20px;
+    padding-top: 6px;
+    padding-left: 6px;
+}
+.newgames-section{
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-between;
+}
+.newgames{
+    height: 200px;
+    width: 250px;
+}
+.crafts-section{
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-between;
+}
+.book-box1{
+    margin-right: 115px;
+}
+.bottom-section{
+    background-color: black;
+    color: white;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.girl{
+    height: 150px;
+    border-radius: 50%;
+    width: 150px;
+    margin-top: 10px;
+}
+.right-text{
+    text-align: right;
+    padding-top: 60px;
+    padding-right: 20px;
+}
+.left-text{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+@media screen and (max-width:1000px){
+    .logo{
+        height: 50px;
+        margin-left: 0;
+        width: 170px;
+    }
+    .top-cart{
+        display: flex;
+        align-items: center;
+    }
+    .cart-res{
+        height: 40px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .books-section{
+        flex-direction: column;
+        text-align: center;
+    }
+    .book-button{
+        margin-right: 30px;
+    }
+    .book-box{
+        margin-bottom: 25px;
+    }
+    .book-cost{
+        margin-left: 30px;
+    }
+    .newgames-section{
+        flex-direction: column;
+        text-align: center;
+    }
+    .book-box1{
+        margin-bottom: 25px;
+    }
+    .gh{
+        margin-left: 55px;
+    }
+    .gp{
+        margin-left: 55px;
+    }
+    .price{
+        margin-left: 0px;
+    }
+    .gb{
+        margin-left: 140px;
+    }
+    .crafts-section{
+        flex-direction: column;
+        text-align: center;
+    }
+    .head-res{
+        margin-top: -210px;
+    }
+    .bg-section{
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-size: 10px;
+        color: white;
+        padding: 30px;
+    }
+    .bg-para{
+        font-size: 10px;
+    }
+    .top-bg{
+        position: absolute;
+        top: 115px;
+    }
+}
